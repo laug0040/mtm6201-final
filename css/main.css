@@ -1,0 +1,9 @@
+/* css library */
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
+
+.background-image {
+    color:#7DC95E;
+    opacity:40%;
+    width:100%;
+    height:auto;
+}

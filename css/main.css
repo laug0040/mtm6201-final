@@ -1,5 +1,24 @@
-/* css library */
+/* CSS library (Bulma) */
 @import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
+
+/* Google Font
+.gupter-regular {
+    font-family: "Gupter", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .gupter-medium {
+    font-family: "Gupter", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .gupter-bold {
+    font-family: "Gupter", serif;
+    font-weight: 700;
+    font-style: normal;
+  } */
 
 /* General Styles */
 body {
@@ -9,7 +28,7 @@ body {
 p, h1, h2, h3, h4, li {
     color:#000;
     z-index:2;
-    font-family:sans-serif;
+    font-family: "Gupter", serif;
 }
 
 li a:hover {
@@ -92,6 +111,10 @@ li a:hover {
     width:100%;
     height:auto;
     position:absolute;
+    bottom:550px;
+    border-radius:10px;
+    border-width:10px;
+    border-color:#7DC95E;
 }
 
 .abt-info {
@@ -103,7 +126,7 @@ li a:hover {
 .abt-info h1 {
     font-size:2rem;
     text-align:center;
-    font-weight:600;
+    font-weight:700;
 }
 
 .abt-info p {
@@ -114,7 +137,7 @@ li a:hover {
 .container-abt {
     background-color:#7DC95E;
     border-radius:10px;
-    width:750px;
+    width:780px;
     height:auto;
     margin:auto;
 }

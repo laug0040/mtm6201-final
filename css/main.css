@@ -36,6 +36,13 @@ li a:hover {
     transition-duration:0.4s;
 }
 
+.background-logo {
+    width:50%;
+    height:auto;
+    z-index:1;
+    opacity:0.8;
+}
+
 /* Navigation Styles for all pages */
 .navigation svg {
     position:absolute;
@@ -73,12 +80,6 @@ li a:hover {
     margin-top:30px;
     margin-left:50px;
     margin-right:50px;
-}
-
-.background-logo svg {
-    width:50%;
-    height:auto;
-    z-index:1;
 }
 
 .hometext p {
@@ -140,4 +141,34 @@ li a:hover {
     width:780px;
     height:auto;
     margin:auto;
+}
+
+/* Services Styling */
+.services {
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    margin:auto;
+    text-align:center;
+}
+
+.services h1 {
+    font-weight:700;
+    font-size:1.5rem;
+}
+
+.services img {
+    width:350px;
+    height:auto;
+    border-radius:20px;
+}
+
+.service-info {
+    background-color:#7DC95E;
+    width:250px;
+    margin:auto;
+    border-radius:10px;
+}
+
+.webdev, .video, .photo {
+    padding:25px;
 }

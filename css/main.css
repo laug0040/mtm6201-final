@@ -10,7 +10,7 @@ p, h1, h2, h3, h4, li {
     z-index:2;
 }
 
-li:hover {
+li a:hover {
     color:#fff;
     transition-duration:0.4s;
 }
@@ -22,6 +22,11 @@ li:hover {
     right:10px;
     top:10px;
     z-index:1;
+}
+
+.navigation a {
+    text-decoration:none;
+    color:#000;
 }
 
 .navigation {

@@ -30,6 +30,7 @@ li a:hover {
 .navigation a {
     text-decoration:none;
     color:#000;
+    text-align:center;
 }
 
 .navigation {
@@ -87,6 +88,12 @@ li a:hover {
 }
 
 /* About Us */
+.abt-img img {
+    width:100%;
+    height:auto;
+    position:absolute;
+}
+
 .abt-info {
     font-size:1.5rem;
     position:relative;

@@ -1,9 +1,40 @@
 /* css library */
 @import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
 
-.background-image {
-    color:#7DC95E;
-    opacity:40%;
-    width:100%;
-    height:auto;
+body {
+    background-color:#fff;
+}
+
+p, h1, h2, h3, h4, li {
+    color:black;
+}
+
+.navigation svg {
+    position:absolute;
+    height:100px;
+    width:auto;
+    right:10px;
+    top:10px;
+    z-index:1;
+}
+
+.navigation ul {
+    position:relative;
+    left:450px;
+    z-index:2;
+    font-size:2rem;
+    display:block;
+    list-style-type:none;
+    text-decoration:none;
+}
+
+.navigation ul li {
+    float:left;
+    margin-top:30px;
+    margin-left:50px;
+    margin-right:50px;
+}
+
+.background-logo svg {
+    
 }

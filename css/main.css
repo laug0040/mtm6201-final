@@ -1,6 +1,7 @@
 /* css library */
 @import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
 
+/* General Styles */
 body {
     background-color:#fff;
 }
@@ -8,6 +9,7 @@ body {
 p, h1, h2, h3, h4, li {
     color:#000;
     z-index:2;
+    font-family:sans-serif;
 }
 
 li a:hover {
@@ -15,6 +17,7 @@ li a:hover {
     transition-duration:0.4s;
 }
 
+/* Navigation Styles for all pages */
 .navigation svg {
     position:absolute;
     height:100px;
@@ -65,6 +68,7 @@ li a:hover {
     right:200px;
 }
 
+/* Site Tagline for homepage */
 .cta {
     font-size:2rem;
 }
@@ -80,4 +84,30 @@ li a:hover {
     height:auto;
     position:absolute;
     bottom:25px;
+}
+
+/* About Us */
+.abt-info {
+    font-size:1.5rem;
+    position:relative;
+    bottom:450px;
+}
+
+.abt-info h1 {
+    font-size:2rem;
+    text-align:center;
+    font-weight:600;
+}
+
+.abt-info p {
+    font-size:1rem;
+    text-align:center;
+}
+
+.container-abt {
+    background-color:#7DC95E;
+    border-radius:10px;
+    width:750px;
+    height:auto;
+    margin:auto;
 }

@@ -6,7 +6,13 @@ body {
 }
 
 p, h1, h2, h3, h4, li {
-    color:black;
+    color:#000;
+    z-index:2;
+}
+
+li:hover {
+    color:#fff;
+    transition-duration:0.4s;
 }
 
 .navigation svg {
@@ -18,9 +24,15 @@ p, h1, h2, h3, h4, li {
     z-index:1;
 }
 
+.navigation {
+    width:auto;
+    height:auto;
+    margin:auto;
+}
+
 .navigation ul {
     position:relative;
-    left:450px;
+    left:800px;
     z-index:2;
     font-size:2rem;
     display:block;
@@ -36,5 +48,31 @@ p, h1, h2, h3, h4, li {
 }
 
 .background-logo svg {
-    
+    width:50%;
+    height:auto;
+    z-index:1;
+}
+
+.hometext p {
+    font-size:1.5rem;
+    position:relative;
+    top:350px;
+    right:200px;
+}
+
+.cta {
+    font-size:2rem;
+}
+
+.cta p {
+    position:relative;
+    bottom:375px;
+    left:250px;
+}
+
+.cta svg {
+    width:100%;
+    height:auto;
+    position:absolute;
+    bottom:25px;
 }

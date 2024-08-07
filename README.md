@@ -7,5 +7,4 @@ Challenges
 2. Image optimization
 3. Responsiveness
 
-# H4
-All stock images are from Pexels
+> Used Bulma & Bootstrap frameworks | Stock Images are provided from Pexels | Font "Gupter" from Google Fonts

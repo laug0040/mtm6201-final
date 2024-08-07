@@ -96,15 +96,17 @@ li a:hover {
 
 .cta p {
     position:relative;
-    bottom:375px;
-    left:250px;
+    bottom:215px;
+    left:825px;
+    font-size:1.5rem;
 }
 
 .cta svg {
-    width:100%;
+    width:50%;
     height:auto;
     position:absolute;
     bottom:25px;
+    right:200px;
 }
 
 /* About Us */
